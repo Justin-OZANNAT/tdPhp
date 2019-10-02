@@ -12,13 +12,13 @@ function formulaire()
 {
     echo '<form action="data-processing.php" method="post">
         <input name="id" type="text" placeholder="Identifiant"/>  <br>
-        <input type="radio" name="Sexe" id="Homme" value="Homme"/> Homme <br>
-        <input type="radio" name="Sexe" id="Femme" value="Femme"/> Femme <br>
+        <input type="radio" name="sexe" id="Homme" value="Homme"/> Homme <br>
+        <input type="radio" name="sexe" id="Femme" value="Femme"/> Femme <br>
         <input name="email" type="text" placeholder="E-mail"/>  <br>
         <input name="password" type="password" placeholder="Mot de Passe"/><br>
-        <input name="verif" type="password" placeholder="Verif MDP"/><br>
-        <input type="text" placeholder="Télephone"/><br>
-        <select> name="Pays"
+        <input name="verif" type="password" placeholder="verif MDP"/><br>
+        <input type="text"  name="telephone" placeholder="telephone"/><br>
+        <select name="pays">
             <option value ="France">France</option>
             <option value="Italie">Italie</option>
         </select><br>

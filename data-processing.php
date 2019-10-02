@@ -4,7 +4,10 @@ $action = $_POST['action'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $id = $_POST['id'];
+$sexe = $_POST['sexe'];
+$telephone = $_POST['telephone'];
 $verif = $_POST['verif'];
+$pays = $_POST['pays'];
 $to = 'jojolasardine@gmail.com';
 $subject = 'Identifiants';
 
@@ -21,8 +24,9 @@ if($action == 'Envoyer')
         'Email : ' . $email . PHP_EOL .
         'Mot de passe :' . $password . PHP_EOL ;
     echo '<br/><strong> '. $message1 . ' </strong><br/><a href="index.php"> Revenir au formulaire<a/>';
-    mail($to, $subject, $message1);
-    $query = 'INSERT INTO user (email, password ) VALUES (\'' . $email . '\', \'' . $password . '\')';
+    //mail($to, $subject, $message1);
+    $query = 'INSERT INTO user (email, password, sexe, telephone, pays ) VALUES (\'' . $email . '\', \''
+        . $password . '\' , \'' . $sexe . '\', \'' . $telephone . '\' , \'' . $pays . '\' )';
 
     if(!($dbResult = mysqli_query($dbLink, $query)))
     {
