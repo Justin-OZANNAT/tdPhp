@@ -21,9 +21,9 @@ function formulaire()
         <select> name="Pays"
             <option value ="France">France</option>
             <option value="Italie">Italie</option>
-        </select>.<br>
-        .<input type="submit" name="action" value="mailer"/>.<br>
-        .</form>';
+        </select><br>
+        <input type="submit" name="action" value="Envoyer"/><br>
+        </form>';
 }
 function end_page()
 {
