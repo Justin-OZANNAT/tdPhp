@@ -1,4 +1,6 @@
 <?php
-    echo 'Erreur dans le mot de passe ou le login';
+    start_page('Réussie');
+    echo 'Connexion reussie';
+    end_page();
 
 ?>

@@ -38,7 +38,7 @@ if($action == 'Envoyer')
         exit();
     }
 
-    /*
+
     while($dbRow = mysqli_fetch_assoc($dbResult))
     {
         echo $dbRow['id'] . '<br/>';
@@ -47,7 +47,7 @@ if($action == 'Envoyer')
         echo '<br/><br/>';
         echo date('d.m.Y', strtotime($dbRow['date']));
     }
-    */
+
 }
 else
 {
