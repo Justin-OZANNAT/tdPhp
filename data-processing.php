@@ -8,7 +8,7 @@ $sexe = $_POST['sexe'];
 $telephone = $_POST['telephone'];
 $verif = $_POST['verif'];
 $pays = $_POST['pays'];
-$to = 'jojolasardine@gmail.com';
+$to = $email;
 $subject = 'Identifiants';
 
 $dbLink = mysqli_connect('mysql-justin-ozannat.alwaysdata.net', '191230', 'jojolasardine')
