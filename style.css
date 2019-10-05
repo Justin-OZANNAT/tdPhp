@@ -1,7 +1,62 @@
 body
 {
-    background: black;
-    color : green;
+    background: #252525;
+    color : white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    font-style: italic;
+    text-decoration: none;
+}
+
+h2:hover{
+    font-size: 70px;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #414141;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background: #252525;
+    padding: 10px;
+    border-radius: 20%;
 }
 
 
@@ -10,6 +65,12 @@ form
     text-align: center;
 
 }
+footer {
+    background-color: #393939;
+    padding: 10px;
+    color: white;
+}
+
 
 input
 {

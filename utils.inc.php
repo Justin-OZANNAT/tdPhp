@@ -5,7 +5,10 @@ function start_page($title)
             <head>
                 <title>' . PHP_EOL . $title . '</title>
             <link rel="stylesheet" type="text/css" href="style.css">
-            </head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+           ' . //<link rel="icon" type="image" href=""/>
+            '</head>
             <body>' . PHP_EOL;
 };
 function formulaire()
