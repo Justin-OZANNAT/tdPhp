@@ -24,7 +24,6 @@ echo '<body>
         <p>C\'est vraiment une ville incroyable il faut y aller absolument parce que j\'aime beaucoup Londres</p>
       </article>
     </section>
-    <a href="mailtest.php">Envoyer un mail à Johanna</a>
     <footer>
       <p>Footer</p>
       ';  // Correspond à l’adresse IP de celui qui visualise la page.
