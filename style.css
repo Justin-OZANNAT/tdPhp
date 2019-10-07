@@ -21,6 +21,7 @@ section {
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
@@ -40,7 +41,6 @@ nav {
     flex: 1;
     background: #414141;
     padding: 20px;
-    border-radius: 20%;
 }
 
 /* Style the list inside the menu */

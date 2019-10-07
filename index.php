@@ -13,14 +13,14 @@ echo '<body>
     <section>
       <nav>
         <ul>
-          <li><a href="#">London</a></li>
-          <li><a href="#">Paris</a></li>
-          <li><a href="#">Tokyo</a></li>
+          <li><a href="#">Justin</a></li>
+          <li><a href="#">Moi</a></li>
+          <li><a href="#">ET ENCORE MOI</a></li>
         </ul>
       </nav>
       
       <article>
-        <h1>London</h1>
+        <h1>Justin</h1>
         <p>C\'est vraiment une ville incroyable il faut y aller absolument parce que j\'aime beaucoup Londres</p>
       </article>
     </section>
